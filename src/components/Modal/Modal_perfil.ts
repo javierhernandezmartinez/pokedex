@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
+
 @Component({
   selector: 'Modal_perfil',
   templateUrl: './Modal_perfil.html',
@@ -6,16 +7,14 @@ import { Component } from '@angular/core';
 })
 export class Modal_perfil {
 
-  phone:string = "5551852695"
-  message:string = "Hola.! Es un gusto poder contactarte."
+  phone: string = "5551852695"
+  message: string = "Hola.! Es un gusto poder contactarte."
 
-  ngOnInit(){
-
-  }
-  openModal(){
+  ngOnInit() {
 
   }
-  openUrl(url:string){
-    window.open(url,'_blank')
+
+  openUrl(url: string) {
+    window.open(url, '_blank')
   }
 }

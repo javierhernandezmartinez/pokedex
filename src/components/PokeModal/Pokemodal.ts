@@ -11,12 +11,5 @@ export class Pokemodal{
   @Input() showModal:boolean = false
 
   ngOnInit(){
-    console.log("Pokemodal::", this.pokemon)
-  }
-  openModal(){
-
-  }
-  closeModal(){
-
   }
 }
