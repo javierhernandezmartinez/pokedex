@@ -1,0 +1,65 @@
+<div class="row_panel_modal">
+  <div class="container_modal">
+    <div class="col-md-12 ">
+      <div class="head_modal" mat-dialog-actions>
+        <p mat-dialog-title class="title_perfil">
+          Entrenador Pokemon
+        </p>
+        <p class="close_perfil" mat-dialog-close>
+          <i class="bi bi-x-lg"></i>
+        </p>
+      </div>
+
+      <div mat-card-content class="body_modal">
+        <div class="row card_perfil">
+          <div class="col-md-4">
+            <img src="../../assets/images/img_perfil.jpg" class="img_modal_perfil"/>
+            <p class="nom_perfil">
+              Javier Hernandez
+            </p>
+            <p class="nom_perfil_p">
+              Desarrollador Full-Stack
+            </p>
+          </div>
+          <div class="col-md-8">
+            <div class="row row_datos_perfil">
+              <div class="col-md-12">
+                <p>
+                  <i class="bi bi-geo-alt-fill"></i>
+                  Edo. México, México
+                </p>
+              </div>
+              <div class="col-md-12">
+                <p>
+                  <i class="bi bi-telephone-fill"></i>
+                  555-185-2695
+                </p>
+              </div>
+              <div class="col-md-12">
+                <p>
+                  <i class="bi bi-envelope-fill"></i>
+                  javier_9509@hotmail.com
+                </p>
+              </div>
+              <div class="col-md-12">
+                <p class="m_link" (click)="openUrl('https://www.linkedin.com/in/javierhernandezmtz/pokedex')">
+                  <i class="bi bi-linkedin"></i>
+                  /in/javierhernandezmtz/
+                </p>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-12">
+            <div class="div_icons">
+              <i class="bi bi-github" (click)="openUrl('https://github.com/javierhernandezmartinez/')"></i>
+              <i class="bi bi-linkedin" (click)="openUrl('https://www.linkedin.com/in/javierhernandezmtz/pokedex')"></i>
+              <jjva-ngx-whatsapp-button [ngx_whatsapp_phone]="phone"
+                                        [ngx_whatsapp_text]="message"></jjva-ngx-whatsapp-button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,196 @@
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+
+.row_panel_modal {
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, .5);
+  position: absolute;
+  top: 0;
+  align-self: center;
+  display: flex;
+  cursor: url("../../assets/images/cursor_flecha.png"), auto;
+}
+
+.container_modal {
+  width: 50vw;
+  height: auto;
+  background: darkred;
+  margin: auto;
+  border-radius: 8px;
+}
+
+.title_perfil {
+  font-size: 18pt;
+  font-weight: bold;
+  text-align: center;
+  color: yellow;
+  text-shadow: 2px 2px 2px blue;
+  margin: auto;
+}
+
+.body_modal {
+  width: 100%;
+  height: 100%;
+  background: limegreen;
+  padding: 5%;
+  border: darkred 2px solid;
+}
+
+.img_modal_perfil {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid darkred;
+  display: block;
+  margin: auto;
+}
+
+.row_datos_perfil {
+  font-size: 12pt;
+  font-weight: 500;
+}
+
+.row_datos_perfil p {
+  font-size: 12pt;
+  font-weight: 500;
+}
+
+.row_datos_perfil i {
+  font-size: 14pt;
+  color: green;
+}
+
+.nom_perfil {
+  font-size: 15pt;
+  font-weight: bold;
+  color: darkred;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.nom_perfil_p {
+  font-size: 9pt;
+  font-weight: bold;
+  color: darkred;
+  text-align: center;
+}
+
+.div_icons {
+  width: 100%;
+  height: 100px;
+  background: green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.div_icons i {
+
+  font-size: 20pt;
+  color: whitesmoke;
+  margin: 2%;
+  border-radius: 50%;
+}
+
+.div_icons i:hover {
+  transform: scale(1.2);
+  transition-duration: 200ms;
+  cursor: url("../../assets/images/cursor_mano.png"), auto;
+}
+
+.card_perfil {
+  background: lightgreen;
+  padding: 2%;
+  border-radius: 8px;
+}
+
+.close_perfil {
+  width: 30px;
+  height: 30px;
+  color: white;
+  text-align: center;
+  font-size: 15pt;
+  font-weight: bold;
+}
+
+.head_modal {
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.close_perfil:hover {
+  cursor: url("../../assets/images/cursor_mano.png"), auto;
+}
+
+.close_perfil i:hover {
+  text-shadow: 0px 0px 10px white;
+}
+
+.m_link {
+  cursor: url("../../assets/images/cursor_mano.png"), auto;
+}
+
+.m_link:hover {
+  text-decoration: underline;
+}
+
+/*Menu tabs*/
+:host ::ng-deep {
+  .ngx-whatsapp-button-float {
+    position: inherit !important;
+    width: inherit !important;
+    height: inherit !important;
+    bottom: 0px !important;
+    right: 0px !important;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+    outline: 4px dashed transparent;
+    cursor: url("../../assets/images/cursor_mano.png"), auto;
+  }
+
+  .ngx-whatsapp-button-float > a:focus {
+    outline-offset: 1px;
+    color: transparent;
+    border: 1px solid transparent;
+  }
+
+  .ngx-whatsapp-button-float:hover {
+    svg {
+      transform: scale(1.2);
+      transition-duration: 200ms;
+    }
+
+  }
+
+  .ngx-whatsapp-button-float {
+    div {
+      margin: 0 !important;
+      margin-top: 0 !important;
+    }
+  }
+}
+
+
+@media (max-width: 576px) {
+
+}
+@media (max-width: 768px){//sm
+  .container_modal {
+    width: 90vw;
+    height: auto;
+    background: darkred;
+    margin: auto;
+    border-radius: 8px;
+  }
+}
+@media (max-width: 992px){//md
+
+}
