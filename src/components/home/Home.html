@@ -39,8 +39,8 @@
           </div>
         </div>
         <div class="panel_left">
-          <div class="row">
-            <div *ngFor="let poke of poke_list;" class="col-12 col-sm-6 col-md-6 col-lg-4" style="padding: 1%">
+          <div class="row" style="justify-content: center">
+            <div *ngFor="let poke of poke_list;" class="col-11 col-sm-6 col-md-6 col-lg-4" style="padding: 1%">
               <mat-card class="card_target" (mouseenter)="selectPokemon(poke)"
                         data-bs-toggle="modal"
                         data-bs-target="#exampleModal">

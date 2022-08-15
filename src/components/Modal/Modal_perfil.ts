@@ -7,7 +7,7 @@ import {Component} from '@angular/core';
 })
 export class Modal_perfil {
 
-  phone: string = "5551852695"
+  phone: string = "52 5551852695"
   message: string = "Hola.! Es un gusto poder contactarte."
 
   ngOnInit() {

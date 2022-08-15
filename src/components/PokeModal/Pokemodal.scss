@@ -1,5 +1,8 @@
+
+#exampleModal{
+}
 .modal-dialog {
-  max-width: 70vw;
+  max-width: 65vw;
   margin-right: auto;
   margin-left: auto;
 }
@@ -172,6 +175,16 @@
     display: block !important;
     text-align: start !important;
     padding-left: 3%;
+  }
+  #exampleModal{
+    margin-top: 5%;
+  }
+  .modal-dialog {
+    max-width: 95vw;
+    max-height: 90vh;
+    margin-right: auto;
+    margin-left: auto;
+
   }
 }
 @media (max-width: 768px){//sm
